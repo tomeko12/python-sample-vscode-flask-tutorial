@@ -3,21 +3,21 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: '<GUID>'
+  azureServiceConnectionId: 'FlaskConn'
 
   # Web app name
-  webAppName: '<your-webapp-name>'
+  webAppName: 'tomeko12a-flaskpipelines'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: '<your-webapp-name>'
+  environmentName: 'tomeko12a-flaskpipelines'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
 
-  pythonVersion: '3.11'
+  pythonVersion: '3.9'
 
 stages:
 - stage: Build
