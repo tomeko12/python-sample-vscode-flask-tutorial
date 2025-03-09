@@ -9,7 +9,7 @@ variables:
   webAppName: 'tomeko12a-flaskpipelines'
 
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  name: 'default'
 
   # Environment name
   environmentName: 'tomeko12a-flaskpipelines'
